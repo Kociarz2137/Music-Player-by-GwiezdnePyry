@@ -1,0 +1,20 @@
+﻿<Window x:Class="Music_Player.AddingMusicDirectory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Music_Player"
+        mc:Ignorable="d"
+        Title="AddingMusicDirectory" Height="200" Width="200" ResizeMode="NoResize">
+    <Grid>
+        <Canvas>
+            <Button Width="100" Height="100" FontSize="11" Canvas.Bottom="50" Canvas.Right="50">Choose directory.</Button>
+            <TextBlock Canvas.Bottom="35" Canvas.Right="100">Chosen Directory: </TextBlock>
+            <TextBox Canvas.Bottom="30" Canvas.Right="5" Width="80"></TextBox>
+        </Canvas>
+        
+    </Grid>
+</Window>
+
+
+<!-- TODO: Make this design more user-friendly -->

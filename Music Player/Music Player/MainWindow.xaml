@@ -5,11 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Music_Player"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Canvas>
-            <Button x:Name="PlayButton" Click="PlayButton_Click" Width="100" Height="100" Canvas.Right="400">Play</Button>
             <ListBox x:Name="ListBoxMP3" Grid.Row="0" Margin="10" Width="200" Height="400"/>
+            
+            <StackPanel x:Name="Buttons" Width="300" Height="100" Canvas.Bottom="0" Canvas.Right="0" Margin="10">
+                <Button x:Name="PlayButton" Click="PlayButton_Click" Width="50" Height="50">Play</Button>
+                <Button x:Name="StopButton" Click="PlayButton_Click" Width="50" Height="50">Stop</Button>
+            </StackPanel>
+                     
+                     
         </Canvas>
         
     </Grid>

@@ -19,36 +19,59 @@ public partial class MainWindow : Window
 {
     
     MediaPlayer mediaPlayer = new MediaPlayer();
+    string folderPath = @"";
     
     public MainWindow()
     {
         InitializeComponent();
-        LoadMP3Files();
+        MP3FilesList();
     }
     
-    private void LoadMP3Files()
+    private void MP3FilesList()
     {
-        // Specify the folder path where your .mp3 files are located
-        string folderPath = @"C:\";
-
-        // Check if the folder exists
-        if (Directory.Exists(folderPath))
+        if (string.IsNullOrEmpty(folderPath))
         {
-            // Get all .mp3 files in the folder
-            string[] mp3Files = Directory.GetFiles(folderPath, "*.mp3");
-
-            // Display the .mp3 files in a ListBox
-            ListBoxMP3.ItemsSource = mp3Files.Select(Path.GetFileName);
+            MessageBox.Show("please provide the folder with the music");
+            AddingMusicDirectory AddingMusicDirectory = new AddingMusicDirectory();
+            AddingMusicDirectory.Show();
         }
         else
         {
-            MessageBox.Show("Folder does not exist.");
+            if (Directory.Exists(folderPath))
+            { 
+                string[] mp3Files = Directory.GetFiles(folderPath, "*.mp3"); 
+                ListBoxMP3.ItemsSource = mp3Files.Select(Path.GetFileName);
+            }
+            else 
+            { 
+                MessageBox.Show("Folder does not exist.");
+            }
         }
+        
     }
     
     private void PlayButton_Click(object sender, RoutedEventArgs e)
     {
-        mediaPlayer.Open(new Uri("C:/music.mp3"));
-        mediaPlayer.Play();
+        string selectedFile = ListBoxMP3.SelectedItem as string;
+        if (!string.IsNullOrEmpty(selectedFile))
+        {
+            mediaPlayer.Open(new Uri(Path.Combine(folderPath, selectedFile)));
+            mediaPlayer.Play();
+        }
+        else
+        {
+            MessageBox.Show("Please select an .mp3 file.");
+        }
     }
+
+    private void StopButton_Click(object sender, RoutedEventArgs e)
+    {   
+            mediaPlayer.Stop();
+    }
+    
+    // TODO: Optimize the code
+    
+    
+    
+    
 }
