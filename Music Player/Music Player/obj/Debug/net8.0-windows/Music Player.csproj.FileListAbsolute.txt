@@ -1,0 +1,21 @@
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\bin\Debug\net8.0-windows\Music Player.exe
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\bin\Debug\net8.0-windows\Music Player.deps.json
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\bin\Debug\net8.0-windows\Music Player.runtimeconfig.json
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\bin\Debug\net8.0-windows\Music Player.dll
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\bin\Debug\net8.0-windows\Music Player.pdb
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\App.g.cs
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player_MarkupCompile.cache
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player_MarkupCompile.lref
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\MainWindow.baml
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.g.resources
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.GeneratedMSBuildEditorConfig.editorconfig
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.AssemblyInfoInputs.cache
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.AssemblyInfo.cs
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.csproj.CoreCompileInputs.cache
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.sourcelink.json
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.dll
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\refint\Music Player.dll
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.pdb
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.genruntimeconfig.cache
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\ref\Music Player.dll

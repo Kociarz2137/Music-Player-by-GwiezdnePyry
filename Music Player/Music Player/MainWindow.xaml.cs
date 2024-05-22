@@ -11,13 +11,19 @@ using System.Windows.Shapes;
 
 namespace Music_Player;
 
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
 public partial class MainWindow : Window
 {
+    
+    MediaPlayer mediaPlayer = new MediaPlayer();
+    
     public MainWindow()
     {
         InitializeComponent();
+    }
+    
+    private void PlayButton_Click(object sender, RoutedEventArgs e)
+    {
+        mediaPlayer.Open(new Uri("C:/music.mp3"));
+        mediaPlayer.Play();
     }
 }
