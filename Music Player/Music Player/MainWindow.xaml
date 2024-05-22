@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="PlayButton" Click="PlayButton_Click" Width="100" Height="100">Play</Button>
+        <Canvas>
+            <Button x:Name="PlayButton" Click="PlayButton_Click" Width="100" Height="100" Canvas.Right="400">Play</Button>
+            <ListBox x:Name="ListBoxMP3" Grid.Row="0" Margin="10" Width="200" Height="400"/>
+        </Canvas>
+        
     </Grid>
 </Window>
