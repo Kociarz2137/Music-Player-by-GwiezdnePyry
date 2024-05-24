@@ -8,13 +8,13 @@
         Title="AddingMusicDirectory" Height="200" Width="200" ResizeMode="NoResize">
     <Grid>
         <Canvas>
-            <Button Width="100" Height="20" FontSize="11" Canvas.Top="80" Canvas.Right="50">Choose directory.</Button>
+            <Button Width="100" Height="20" FontSize="11" Canvas.Top="80" Canvas.Right="50" Click="applyDirectory">Choose directory.</Button>
             <TextBlock Canvas.Top="20" Canvas.Right="50">Chosen Directory: </TextBlock>
-            <TextBox Canvas.Top="45" Margin="5" Width="190"></TextBox>
+            <TextBox Canvas.Top="45" Margin="5" Width="180"></TextBox>
         </Canvas>
         
     </Grid>
 </Window>
 
 
-<!-- TODO: Make this design more user-friendly -->
+<!-- TODO: Improve the design in the future -->

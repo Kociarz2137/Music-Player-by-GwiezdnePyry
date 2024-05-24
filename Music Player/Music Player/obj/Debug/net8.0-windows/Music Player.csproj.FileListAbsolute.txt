@@ -21,3 +21,6 @@ C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.
 C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\ref\Music Player.dll
 C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\AddingMusicDirectory.g.cs
 C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\AddingMusicDirectory.baml
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Player.csproj.AssemblyReference.cache
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\bin\Debug\net8.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\_repos\Music Player by GwiezdnePyry\Music Player\Music Player\obj\Debug\net8.0-windows\Music Pl.C255A016.Up2Date

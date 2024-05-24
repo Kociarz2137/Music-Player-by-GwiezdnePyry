@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "usKOyMIrdtm7aMX0PzmmY4ge0dQlglNFYC961hnIm/sCU4HLpjecPnWr3khPdNnnEBOAKRxpWInxPKMQTwkizQ==",
+  "dgSpecHash": "rSUSoNWkN4znsc1PXEeWlgxuCTfHEL2EgaUVy4MJsAPFEttYOSI2k7lW7g+nTkgKtcJgVxaCCH9s2EtHnHR01A==",
   "success": true,
   "projectFilePath": "C:\\_repos\\Music Player by GwiezdnePyry\\Music Player\\Music Player\\Music Player.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dbedn\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\dbedn\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.3\\microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512",
+    "C:\\Users\\dbedn\\.nuget\\packages\\system.windows.forms.datavisualization\\1.0.0-prerelease.20110.1\\system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512"
+  ],
   "logs": []
 }
