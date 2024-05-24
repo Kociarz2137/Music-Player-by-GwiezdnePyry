@@ -27,30 +27,6 @@ public partial class MainWindow : Window
         MP3FilesList();
     }
     
-    // private void MP3FilesList()
-    // {
-    //     if (string.IsNullOrEmpty(folderPath))
-    //     {
-    //         MessageBox.Show("please provide the folder with the music");
-    //         AddingMusicDirectory AddingMusicDirectory = new AddingMusicDirectory();
-    //         AddingMusicDirectory.Show();
-    //     }
-    //     else
-    //     {
-    //         if (Directory.Exists(folderPath))
-    //         { 
-    //             string[] mp3Files = Directory.GetFiles(folderPath, "*.mp3"); 
-    //             ListBoxMP3.ItemsSource = mp3Files.Select(Path.GetFileName);
-    //         }
-    //         else 
-    //         { 
-    //             MessageBox.Show("Folder does not exist.");
-    //         }
-    //     }
-    //     
-    // }
-    // TODO: make this code more readable
-    
     private void MP3FilesList()
     {
         if (Directory.Exists(folderPath)) 
@@ -60,7 +36,8 @@ public partial class MainWindow : Window
         }
         else 
         { 
-            MessageBox.Show("Folder does not exist.");
+            // MessageBox.Show("Folder does not exist.");
+            Console.WriteLine("hello");
         }
         
     }
@@ -86,7 +63,7 @@ public partial class MainWindow : Window
     
     // TODO: Optimize the code
     // TODO: Fix the bug where stop button does not stop the music but only plays it over again from start
-
+    // TODO: Remove the handlers of not choosen directory
     
     
     
