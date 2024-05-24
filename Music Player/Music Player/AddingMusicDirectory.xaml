@@ -8,9 +8,9 @@
         Title="AddingMusicDirectory" Height="200" Width="200" ResizeMode="NoResize">
     <Grid>
         <Canvas>
-            <Button Width="100" Height="100" FontSize="11" Canvas.Bottom="50" Canvas.Right="50">Choose directory.</Button>
-            <TextBlock Canvas.Bottom="35" Canvas.Right="100">Chosen Directory: </TextBlock>
-            <TextBox Canvas.Bottom="30" Canvas.Right="5" Width="80"></TextBox>
+            <Button Width="100" Height="20" FontSize="11" Canvas.Top="80" Canvas.Right="50">Choose directory.</Button>
+            <TextBlock Canvas.Top="20" Canvas.Right="50">Chosen Directory: </TextBlock>
+            <TextBox Canvas.Top="45" Margin="5" Width="190"></TextBox>
         </Canvas>
         
     </Grid>
