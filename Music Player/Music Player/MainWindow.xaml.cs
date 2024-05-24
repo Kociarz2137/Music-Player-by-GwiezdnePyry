@@ -60,6 +60,13 @@ public partial class MainWindow : Window
     {   
             mediaPlayer.Stop();
     }
+
+    private void directoryApplyClick(object sender, RoutedEventArgs e)
+    {
+        string folderDirectory = DirectoryTextBox.Text;
+        folderPath = folderDirectory;
+        MessageBox.Show("Success! The directory is now set to: " + folderPath);
+    }
     
     // TODO: Optimize the code
     // TODO: Fix the bug where stop button does not stop the music but only plays it over again from start

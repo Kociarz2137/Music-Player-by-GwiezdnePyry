@@ -17,7 +17,13 @@
                 <Button x:Name="SkipBac" Margin="2" Width="50" Height="50">SkipB</Button>
             </StackPanel>
                      
-                     
+            <StackPanel x:Name="DirectoryPanel" Width="215" Height="200" Canvas.Right="10" Canvas.Top="10" Margin="10">
+                <TextBlock FontSize="10">Didn't chosen music directory yet? Do it here:</TextBlock>
+                <TextBox x:Name="DirectoryTextBox" Margin="0 5 5 5"></TextBox>
+                <TextBlock FontSize="10">Just paste the directory. Like C:/Music</TextBlock>
+                <TextBlock FontSize="10">The default directory ist C:/</TextBlock>
+                <Button Click="directoryApplyClick" Margin=" 0 5 0 0">Apply</Button>
+            </StackPanel>         
         </Canvas>
         
     </Grid>
