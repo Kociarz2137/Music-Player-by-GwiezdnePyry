@@ -23,7 +23,7 @@
                 <TextBlock FontSize="10">Just paste the directory. Like C:/Music</TextBlock>
                 <TextBlock FontSize="10">The default directory ist C:/</TextBlock>
                 <Button Click="directoryApplyClick" Margin=" 0 5 0 0">Apply</Button>
-            </StackPanel>         
+            </StackPanel>        
         </Canvas>
         
     </Grid>

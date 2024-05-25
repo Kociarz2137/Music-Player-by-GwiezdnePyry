@@ -5,6 +5,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Forms;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.IO;
@@ -24,7 +25,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        MP3FilesList();
+        
     }
     
     private void MP3FilesList()
@@ -66,6 +67,14 @@ public partial class MainWindow : Window
         string folderDirectory = DirectoryTextBox.Text;
         folderPath = folderDirectory;
         MessageBox.Show("Success! The directory is now set to: " + folderPath);
+        if (Directory.Exists(folderDirectory))
+        {
+            MP3FilesList();
+        }
+        else
+        {
+            MessageBox.Show("Directory '" + folderDirectory + "' does not exists");
+        }
     }
     
     // TODO: Optimize the code
