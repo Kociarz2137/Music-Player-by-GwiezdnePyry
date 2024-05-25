@@ -12,7 +12,7 @@
             
             <StackPanel x:Name="Buttons" Orientation="Horizontal" Width="215" Height="100" Canvas.Bottom="0" Canvas.Right="0" Margin="10">
                 <Button x:Name="PlayButton" Margin="2" Click="PlayButton_Click" Width="50" Height="50">Play</Button>
-                <Button x:Name="StopButton" Margin="2" Click="PlayButton_Click" Width="50" Height="50">Stop</Button>
+                <Button x:Name="StopButton" Margin="2" Click="StopButton_Click" Width="50" Height="50">Stop</Button>
                 <Button x:Name="SkipFor" Margin="2" Width="50" Height="50">SkipF</Button>
                 <Button x:Name="SkipBac" Margin="2" Width="50" Height="50">SkipB</Button>
             </StackPanel>

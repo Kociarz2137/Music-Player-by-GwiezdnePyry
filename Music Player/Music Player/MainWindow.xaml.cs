@@ -58,8 +58,8 @@ public partial class MainWindow : Window
     }
 
     private void StopButton_Click(object sender, RoutedEventArgs e)
-    {   
-            mediaPlayer.Stop();
+    {          
+        mediaPlayer.Stop();
     }
 
     private void directoryApplyClick(object sender, RoutedEventArgs e)
