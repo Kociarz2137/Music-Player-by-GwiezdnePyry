@@ -8,7 +8,17 @@
         Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Canvas>
-            <ListBox x:Name="ListBoxMP3" Grid.Row="0" Margin="10" Width="200" Height="400"/>
+            <ListBox x:Name="ListBoxMP3" Grid.Row="0" Margin="10" Width="200" Height="400">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <TextBlock Text="{Binding}" Width="100" VerticalAlignment="Center"/>
+                            <Button Content="+" Height="20" Width="20" Margin="5,0" />
+                            <Button Content="-" Height="20" Width="20" Margin="5,0" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
             
             <StackPanel x:Name="Buttons" Orientation="Horizontal" Width="215" Height="100" Canvas.Bottom="0" Canvas.Right="0" Margin="10">
                 <Button x:Name="PlayButton" Margin="2" Click="PlayButton_Click" Width="50" Height="50">Play</Button>
@@ -18,13 +28,12 @@
             </StackPanel>
                      
             <StackPanel x:Name="DirectoryPanel" Width="215" Height="200" Canvas.Right="10" Canvas.Top="10" Margin="10">
-                <TextBlock FontSize="10">Didn't chosen music directory yet? Do it here:</TextBlock>
+                <TextBlock FontSize="10">Didn't choose music directory yet? Do it here:</TextBlock>
                 <TextBox x:Name="DirectoryTextBox" Margin="0 5 5 5"></TextBox>
                 <TextBlock FontSize="10">Just paste the directory. Like C:/Music</TextBlock>
-                <TextBlock FontSize="10">The default directory ist C:/</TextBlock>
-                <Button Click="directoryApplyClick" Margin=" 0 5 0 0">Apply</Button>
+                <TextBlock FontSize="10">The default directory is C:/</TextBlock>
+                <Button Click="directoryApplyClick" Margin="0 5 0 0">Apply</Button>
             </StackPanel>        
         </Canvas>
-        
     </Grid>
 </Window>
