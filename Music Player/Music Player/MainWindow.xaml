@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Music_Player"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+        Title="Musicso" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Canvas>
             <ListBox x:Name="ListBoxMP3" Grid.Row="0" Margin="10" Width="200" Height="400">
@@ -28,12 +28,12 @@
             </StackPanel>
             
             <Slider Name="volumeSlider" ValueChanged="VolumeChanged" Canvas.Bottom="10" Canvas.Right="10" Minimum="0" Maximum="100" Value="10" Width="215" Margin="0,20,0,0" />
-
+            <TextBlock x:Name="volumeValueDisplay" Canvas.Bottom="10" Canvas.Right="225" Width="30" Height="20">0%</TextBlock>
+            
             <StackPanel x:Name="DirectoryPanel" Width="215" Height="200" Canvas.Right="10" Canvas.Top="10" Margin="10">
                 <TextBlock FontSize="10">Didn't choose music directory yet? Do it here:</TextBlock>
                 <TextBox x:Name="DirectoryTextBox" Margin="0 5 5 5"></TextBox>
                 <TextBlock FontSize="10">Just paste the directory. Like C:/Music</TextBlock>
-                <TextBlock FontSize="10">The default directory is C:/</TextBlock>
                 <Button Click="directoryApplyClick" Margin="0 5 0 0">Apply</Button>
             </StackPanel>        
         </Canvas>

@@ -80,10 +80,12 @@ public partial class MainWindow : Window
 
     private void VolumeChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
     {
-        if (mediaPlayer != null)
+        if (mediaPlayer != null && volumeSlider != null && volumeValueDisplay != null)
         {
             mediaPlayer.Volume = volumeSlider.Value;
+            volumeValueDisplay.Text = $"{volumeSlider.Value:F0}%";
         };
+        
     }
 }    
 
