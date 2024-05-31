@@ -77,10 +77,16 @@ public partial class MainWindow : Window
         }
     }
     
-    // TODO: Optimize the code
-    // TODO: Fix the bug where stop button does not stop the music but only plays it over again from start
-    // TODO: Remove the handlers of not choosen directory
-    
-    
-    
-}
+
+    private void VolumeChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+    {
+        if (mediaPlayer != null)
+        {
+            mediaPlayer.Volume = volumeSlider.Value;
+        };
+    }
+}    
+
+     // TODO: Optimize the code
+     // TODO: Fix the bug where stop button does not stop the music but only plays it over again from start
+     // TODO: Remove the handlers of not choosen directory
